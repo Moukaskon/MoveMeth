@@ -7,10 +7,6 @@ public class Customer {
         this.account = account;
     }
 
-    public double getAccountBalance() {
-        return account.getDeposits() - account.getWithdrawals();
-    }
-
     public String getName() {
         return name;
     }
@@ -19,3 +15,4 @@ public class Customer {
         return account;
     }
 }
+
